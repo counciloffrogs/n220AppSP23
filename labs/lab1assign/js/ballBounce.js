@@ -30,9 +30,6 @@ function draw(){
     // draw circle
     circle(x, y, 10);
 
-    // clear background
-    background(0);
-
     // troubleshooting
     // console.log(x);
     // console.log(y);
