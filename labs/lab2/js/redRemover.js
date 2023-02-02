@@ -1,9 +1,22 @@
 //define function to remove red
+function removeRed(hasred){
+    //remove red from variable
+    console.log(hasred);
 
-//remove red from variable
+    hasred.setRed(0);
 
-//draw circle in new color
+    //return color
+    return hasred;
+}
 
-//return color
+function setup(){
+    createCanvas(500, 500);
+    
+}
 
-//run function
+
+function draw(){
+    //draw circle in new color
+    fill(removeRed(color(170, 200, 150)));
+    circle(100, 100, 50);
+}
