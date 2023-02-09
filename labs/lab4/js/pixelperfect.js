@@ -1,3 +1,1 @@
-// create variable for div width and height
-
-// on hover, increase by *1.1
+// on click, set width and height to *1.1
