@@ -1,3 +1,3 @@
-// on click, change text in html
+// get inner html
 
-//on three clicks, change to divdivdiv
+// on click, change text in have mc at the beginning
