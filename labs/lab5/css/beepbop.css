@@ -1,1 +1,6 @@
 /* give div a height, width, background color */
+#beep{
+    height: 500px;
+    width: 200px;
+    background-color: #d9d7aa;
+}
