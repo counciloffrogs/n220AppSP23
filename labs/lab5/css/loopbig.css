@@ -1,1 +1,6 @@
 /* give the div height, width, background color */
+#bigloop{
+    width: 300px;
+    height: 200px;
+    background-color: #d5d5d5;
+}
