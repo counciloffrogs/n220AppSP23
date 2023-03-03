@@ -1,7 +1,26 @@
 /* center 4 divs in row with flex center*/
+.container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
 
-/* center score div */
+/* center score div and give backgroud color*/
+#resultBox{
+    margin: 0 auto;
+    margin-top: 30px;
+    background-color: #aaffff;
+}
 
-/* give score div height width background color */
+/* give divs background and width and height */
+div{
+    width: 300px;
+    height: 200px;
+    text-align: center;
+    font-size: 25px;
+}
 
-/* give 4 divs background and width and height */
+.box{
+    background-color: #ffaaff;
+}
