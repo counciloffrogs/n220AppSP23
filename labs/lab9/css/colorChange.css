@@ -1,1 +1,12 @@
-/* give divs width height, margin, make container flex left align */
+/* give divs width height, margin, make container flex center */
+.container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.colors{
+    width: 200px;
+    height: 200px;
+    margin-right: 5px;
+}
