@@ -1,1 +1,14 @@
 /* give divs width height, margin, color, make container flex left align */
+.containter{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.cards{
+    width: 200px;
+    height: 200px;
+    background-color: lightgray;
+    margin-right: 5px;
+    text-align: center;
+}
