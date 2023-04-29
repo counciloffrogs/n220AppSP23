@@ -11,10 +11,42 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 /* style p and h1 h3 size*/
-/* give player 1 and player 2 divs height */
+p{
+    font-size: 16px;
+}
+h1{
+    font-size: 30px;
+}
+h3{
+    font-size: 20px;
+}
+
+/* give player 1 and player 2 divs width */
+#player1, #player2{
+    width: 100%;
+}
+
 /* give p5 canvas div height and width */
+#p5{
+    height: 400px;
+    width: 400px;
+}
+
 /* give bottom divs width and height */
+#bottom1, #bottom2{
+    width: 100%;
+    height: 400px;
+}
+
 /* give last guess div width and height and center content*/
+#lastGuess{
+    width: 100px;
+    height: 50px;
+    text-align: center;
+}
+
 /* give buttons and guesses div width and center content */
+
+
 /* give win/loss div height and width */
 /* restart button height width and color, center text */
