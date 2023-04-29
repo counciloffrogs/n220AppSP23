@@ -9,11 +9,34 @@
 </head>
 <body>
     <!-- create a player 1 div -->
+    <div id="player1">
         <!-- create an h1 that says player one, then an p that says input word to guess here, then an input and submit button -->
+        <h1>Player One</h1>
+        <p>Input your word for player two to guess here:</p>
+        <input id="wordBox" type="text">
+        <button id="subButt" type="submit"></button>
+    </div>
     <!-- create player 2 div -->
+    <div id="player2">
         <!-- create div for p5 canvas, then h1 for word spaces, then two divs for bottom half -->
+        <div id="p5"></div>
+        <h1 id="wordspaces"></h1>
+        <div id="bottom1">
             <!-- one div contains div for last guess and whether it was correct or not, div to fill with buttons, h3 saying correct guesses, div to fill with corrects, h3 with incorrect guesses, div to fill with incorrects -->
+            <div id="lastGuess"></div>
+            <div id="buttons"></div>
+            <h3>Correct Guesses:</h3>
+            <div id="correct"></div>
+            <h3>Incorrect Guesses:</h3>
+            <div id="incorrect"></div>
+        </div>
+        <div id="bottom2">
             <!-- other div contains win/loss div and restart button -->
+            <div id="winloss"></div>
+            <button id="restart"></button>
+        </div>
+    </div>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.5.0/p5.min.js" integrity="sha512-WJXVjqeINVpi5XXJ2jn0BSCfp0y80IKrYh731gLRnkAS9TKc5KNt/OfLtu+fCueqdWniouJ1ubM+VI/hbo7POQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="js/app.js"></script>
 </body>
